@@ -4,10 +4,10 @@ fetch('https://api.spacexdata.com/v3/capsules')
     return response.json();
 })
 .then(data => {
-    console.log(data);
+    // console.log(data);
 })
 .catch(error => {
-    console.log(error);
+    // console.log(error);
 })
 
 // falcon one history
@@ -16,10 +16,10 @@ fetch('https://api.spacexdata.com/v3/history/1')
     return response.json();
 })
 .then(data => {
-    console.log(data);
+    // console.log(data);
 })
 .catch(error => {
-    console.log(error);
+    // console.log(error);
 })
 
 // landing pads
@@ -28,9 +28,9 @@ fetch('https://api.spacexdata.com/v3/landpads')
     return response.json();
 })
 .then(data => {
-    console.log(data);
+    // console.log(data);
 })
 .catch(error => {
-    console.log(error);
+    // console.log(error);
 })
 
